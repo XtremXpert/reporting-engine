@@ -58,8 +58,7 @@ class TestReportController(HttpCase):
         options = quote(json.dumps({"foo": "bar"}))
         context = quote(json.dumps({"active_ids": [self.partner.id]}))
         response = self._download(
-            f"/report/xlsx/report_xlsx.partner_xlsx?options={options}"
-            f"&context={context}"
+            f"/report/xlsx/report_xlsx.partner_xlsx?options={options}&context={context}"
         )
         self.assertEqual(response.status_code, 200)
         self.assertIn("Partner%20XLSX.xlsx", response.headers["Content-Disposition"])

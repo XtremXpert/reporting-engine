@@ -7,12 +7,12 @@ import logging
 
 from werkzeug.urls import url_decode
 
-from odoo.http.stream import content_disposition
 from odoo.http import (
     request,
     route,
 )
 from odoo.http.dispatcher import serialize_exception as _serialize_exception
+from odoo.http.stream import content_disposition
 from odoo.tools import html_escape
 from odoo.tools.safe_eval import safe_eval, time
 

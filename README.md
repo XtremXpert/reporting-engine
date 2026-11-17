@@ -18,7 +18,13 @@ reporting-engine
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[report_qweb_element_page_visibility](report_qweb_element_page_visibility/) | 20.0.1.0.0 |  | Report Qweb Element Page Visibility
+[report_xlsx](report_xlsx/) | 20.0.1.0.1 |  | Base module to create xlsx report
+[report_xlsx_helper](report_xlsx_helper/) | 20.0.1.0.0 |  | Report xlsx helpers
 
 [//]: # (end addons)
 
